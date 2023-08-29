@@ -23959,11 +23959,11 @@ _.y=j},
 aI9(a,b,c){var s,r,q,p=A.bb(a.a),o=p.a
 o===$&&A.a()
 s=new A.I(o,p.gct(),A.U(o).k("I<1,k>")).bE(0)
-p=b?"package:freezed_annotation/freezed_annotation.dart":"package:json_annotation/json_annotation.dart"
+p=c?"package:freezed_annotation/freezed_annotation.dart":"package:json_annotation/json_annotation.dart"
 o=A.mV(a.b,"")
 r=a.d
 r=new A.co(r,new A.akd(a),A.n(r).k("co<1,k>")).bD(0,",\n")
-q=c?A.aHo(a,s):"}"
+q=b?A.aHo(a,s):"}"
 return"import '"+p+"';\n\n"+o+"@JsonEnum()\nenum "+s+" {\n"+r+";\n"+q+"\n"},
 aHo(a,b){var s=a.d
 return"\n  "+A.asc(a.c,null)+" toJson() => _$"+b+"EnumMap[this]!;\n}\n\nconst _$"+b+"EnumMap = {\n  "+new A.co(s,new A.ak_(b,a),A.n(s).k("co<1,k>")).bD(0,",\n  ")+",\n};"},
@@ -80114,7 +80114,7 @@ i=h}else{h=new A.ex()
 i=h.hZ(i)
 h.a!==$&&A.ba()
 h.a=i
-i=new A.I(i,h.gct(),A.U(i).k("I<1,k>")).bE(0)}a2.push(new A.nG("shared_models/"+i+"."+n,c.afp(d,o,j)))}if(p.w&&p.c===B.aH)a2.push(a1.afS(a))
+i=new A.I(i,h.gct(),A.U(i).k("I<1,k>")).bE(0)}a2.push(new A.nG("shared_models/"+i+"."+n,c.afp(d,j,o)))}if(p.w&&p.c===B.aH)a2.push(a1.afS(a))
 q=a2
 s=1
 break
@@ -80127,7 +80127,7 @@ G(){return"ProgrammingLanguage."+this.b},
 afp(a,b,c){var s,r,q,p,o,n,m,l,k,j,i=".fromJson(Map<String, dynamic> json) => _$",h="Unknown type exception"
 switch(this.a){case 0:if(a instanceof A.kK)return A.aI9(a,b,c)
 else if(a instanceof A.fl){if(a.f)return A.aIc(a)
-if(b){s=a.a
+if(c){s=a.a
 r=A.bb(s)
 q=r.a
 q===$&&A.a()
